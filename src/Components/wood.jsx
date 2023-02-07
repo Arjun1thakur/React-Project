@@ -6,8 +6,6 @@ const Wood = () => {
     let location =useLocation();
     let arr=(location.state.data)
     let block=(location.state.arr)
-    console.log(arr)
-    console.log(block)
   return (
     <>
         <div className="wood" >
